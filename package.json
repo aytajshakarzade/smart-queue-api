@@ -1,0 +1,26 @@
+{
+  "name": "nvpl-smart-queue",
+  "version": "1.0.0",
+  "description": "Smart Queue API for NV ProjectLab backend interview task",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.4",
+    "vitest": "^4.0.1"
+  }
+}
